@@ -1,0 +1,29 @@
+{
+  "name": "ed25519-ecies",
+  "version": "1.0.0",
+  "description": "An ECIES implementation for ed25519 keys on Solana",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "ed2curve": "^0.3.0",
+    "hash-wasm": "^4.10.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/aes-js": "^3.1.2",
+    "@types/chai": "^4.3.8",
+    "@types/ed2curve": "^0.2.2",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^20.8.6",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
