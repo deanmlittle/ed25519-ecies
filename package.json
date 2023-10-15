@@ -2,7 +2,7 @@
   "name": "ed25519-ecies",
   "version": "1.0.0",
   "description": "An ECIES implementation for ed25519 keys on Solana",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
