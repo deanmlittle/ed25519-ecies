@@ -17,7 +17,7 @@ The encryption protocol does the following:
 The decryption protocol reverses this by:
 
 1) Takes in the private key of the opposing public key provided in the encryption phase
-2) Extracts the public of the opposing private key provided/created in the encryption phase
+2) Extracts the public key of the opposing private key provided/created in the encryption phase
 3) Computes the same shared secret using ECDH, but with the opposing keys to those in the encryption phase
 5) Creates a Public key from the shared secret
 6) SHA512 hashes it and splits the resulting bytes into iv, kE and kM
