@@ -14,7 +14,7 @@ The encryption protocol does the following:
 6) Checksums the message with kM using SHA256-HMAC
 
 ### Decryption
-The decryption protocol reverses this by:
+In order to reverse this process, the decryption protocol does the following:
 
 1) Takes in the private key of the opposing public key provided in the encryption phase
 2) Extracts the public key of the opposing private key provided/created in the encryption phase
